@@ -1,0 +1,48 @@
+{
+  "experiment": "architecture_and_decoding_catalog",
+  "executed": false,
+  "note": "Catalog only; measured generation requires model execution.",
+  "architectures": [
+    {
+      "model_family": "encoder-only",
+      "pretraining_objective": "masked language modeling",
+      "suited_to_agriculture_advisory": "classification and retrieval"
+    },
+    {
+      "model_family": "decoder-only",
+      "pretraining_objective": "causal language modeling",
+      "suited_to_agriculture_advisory": "primary text generation"
+    },
+    {
+      "model_family": "encoder-decoder",
+      "pretraining_objective": "sequence-to-sequence",
+      "suited_to_agriculture_advisory": "translation and summarization"
+    }
+  ],
+  "decoding_configs": [
+    {
+      "temperature": 0.0,
+      "top_k": null,
+      "top_p": null,
+      "decoding": "greedy"
+    },
+    {
+      "temperature": 0.7,
+      "top_k": 40,
+      "top_p": null,
+      "decoding": "top-k"
+    },
+    {
+      "temperature": 0.7,
+      "top_k": null,
+      "top_p": 0.9,
+      "decoding": "top-p"
+    },
+    {
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.9,
+      "decoding": "top-k-top-p"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "language": "english",
+    "text": "What is the recommended irrigation schedule for rice in clay soil?",
+    "character_count": 66,
+    "utf8_byte_count": 66,
+    "estimated_token_count": 16
+  },
+  {
+    "language": "telugu",
+    "text": "బంక మట్టి నేలలో వరికి ఎలాంటి నీటి నిర్వహణ మంచిది?",
+    "character_count": 49,
+    "utf8_byte_count": 131,
+    "estimated_token_count": 32
+  },
+  {
+    "language": "hindi",
+    "text": "काली मिट्टी में धान की सिंचाई का सही तरीका क्या है?",
+    "character_count": 51,
+    "utf8_byte_count": 131,
+    "estimated_token_count": 32
+  }
+]

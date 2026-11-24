@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: agriculture-gpt
+Version: 0.1.0
+Summary: RAG and QLoRA-based agricultural advisory platform
+Requires-Python: >=3.10
+Requires-Dist: fastapi<0.116,>=0.115
+Requires-Dist: uvicorn[standard]<1,>=0.30
+Requires-Dist: pydantic-settings<3,>=2
+Requires-Dist: httpx<0.28,>=0.27
+Requires-Dist: chromadb<2,>=0.5
+Requires-Dist: sentence-transformers<6,>=3
+Requires-Dist: transformers<5,>=4.45
+Requires-Dist: tiktoken<1,>=0.7
+Requires-Dist: motor<4,>=3
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"
+Requires-Dist: pytest-cov<7,>=5; extra == "dev"
+Requires-Dist: pytest-asyncio<1,>=0.24; extra == "dev"
+Provides-Extra: training
+Requires-Dist: bitsandbytes>=0.44; extra == "training"
+Requires-Dist: peft>=0.13; extra == "training"
+Requires-Dist: accelerate>=1.0; extra == "training"
+Requires-Dist: datasets>=3; extra == "training"
+Requires-Dist: trl>=0.12; extra == "training"

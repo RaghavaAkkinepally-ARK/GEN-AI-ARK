@@ -1,0 +1,2 @@
+"""AgricultureGPT application package."""
+
