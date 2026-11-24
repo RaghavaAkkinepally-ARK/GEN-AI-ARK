@@ -1,5 +1,7 @@
 # AgricultureGPT
 
+> GEN-AI-ARK
+
 AgricultureGPT is a modular, provider-agnostic agricultural advisory platform being
 developed in phases for LLM engineering, RAG, QLoRA fine-tuning, security and
 full-stack deployment.
@@ -30,4 +32,3 @@ API documentation is available at `http://localhost:8000/docs`.
 - `docs/`: architecture, governance and operating documentation
 - `terraform/`: AWS infrastructure
 - `tests/`: pytest and integration coverage
-
